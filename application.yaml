@@ -7,7 +7,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/webstudi0/myst-node.git
-    targetRevision: main
+    targetRevision: HEAD
     path: dev
   destination:
     server: https://kubernetes.default.svc
