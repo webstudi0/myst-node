@@ -42,8 +42,8 @@ spec:
             - name: MYST_NODE_IDENTITY
               valueFrom:
                 secretKeyRef:
-                name: myst-identity
-                key: MYST_NODE_IDENTITY
+                  name: myst-identity
+                  key: MYST_NODE_IDENTITY
           volumeMounts:
             - name: myst-data
               mountPath: /var/lib/mysterium
