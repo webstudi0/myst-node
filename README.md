@@ -1,2 +1,2 @@
 # myst-node
-Kubernetes manifests for deploying a Mysterium Network node (mystnodes) with ArgoCD.
+Kubernetes manifests for deploying a Mysterium Network node (mystnodes) with ArgoCD. Includes Deployment, Service, and ArgoCD Application YAML files for automated, GitOps-driven deployment of a privacy VPN node on Kubernetes.
