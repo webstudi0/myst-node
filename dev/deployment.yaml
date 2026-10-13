@@ -17,6 +17,9 @@ spec:
       containers:
         - name: myst
           image: mysteriumnetwork/myst:latest
+          args:
+            - service
+            - --agreed-terms-and-conditions
           ports:
             - containerPort: 4050
               name: api
