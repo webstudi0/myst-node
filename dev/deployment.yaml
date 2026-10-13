@@ -58,7 +58,7 @@ spec:
       volumes:
         - name: myst-data
           hostPath:
-            path: /mnt/data/myst-node   # Adjust to your host path
+            path: /opt/data/myst-node   # Adjust to your host path
             type: DirectoryOrCreate
         - name: dev-tun
           hostPath:
