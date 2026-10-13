@@ -39,6 +39,11 @@ spec:
             # Optional: Set node identity and other settings
             # - name: MYST_NODE_IDENTITY
             #   value: "0xYourEthereumAddress"
+            - name: MYST_NODE_IDENTITY
+              valueFrom:
+                secretKeyRef:
+                name: myst-identity
+                key: MYST_NODE_IDENTITY
           volumeMounts:
             - name: myst-data
               mountPath: /var/lib/mysterium
