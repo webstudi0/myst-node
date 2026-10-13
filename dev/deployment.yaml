@@ -17,8 +17,6 @@ spec:
       containers:
         - name: myst
           image: mysteriumnetwork/myst:latest
-          command: ["myst"]
-          args: ["node", "--data-dir=/var/lib/mysterium"]
           ports:
             - containerPort: 4050
               name: api
