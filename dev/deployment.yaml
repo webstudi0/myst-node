@@ -24,6 +24,9 @@ spec:
             - containerPort: 4050
               name: api
               protocol: TCP
+            - containerPort: 4449
+              name: ui
+              protocol: TCP
             - containerPort: 1194
               name: openvpn
               protocol: UDP
