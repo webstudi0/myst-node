@@ -14,6 +14,10 @@ spec:
       targetPort: 4050
       protocol: TCP
       nodePort: 30405        # Optional, if not set Kubernetes will assign a port
+    - name: ui
+      port: 4449
+      targetPort: 4449
+      protocol: TCP
     - name: openvpn
       port: 1194
       targetPort: 1194
