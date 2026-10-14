@@ -44,7 +44,7 @@ spec:
               value: "51820"
             # Optional: Set node identity and other settings
             # - name: MYST_NODE_IDENTITY
-            #   value: "0xYourEthereumAddress"
+            #   value: "0xYourPolygonAddress"
             - name: MYST_NODE_IDENTITY
               valueFrom:
                 secretKeyRef:
